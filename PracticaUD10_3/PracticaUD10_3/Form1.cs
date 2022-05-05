@@ -16,5 +16,18 @@ namespace PracticaUD10_3
         {
             InitializeComponent();
         }
+
+        private void bGuardar_Click(object sender, EventArgs e)
+        {
+            string text = "", nombre, apellido, tlf;
+
+            tlf = tMovil.Text;
+            nombre = tNombre.Text;
+            apellido = tApellidos.Text;
+
+            text = text + ("Nombre Completo: " + nombre + " " + apellido + "             Nº Teléfono: " + tlf);
+
+            lSocios.Text = lSocios.Text + text + "\n\n";
+        }
     }
 }

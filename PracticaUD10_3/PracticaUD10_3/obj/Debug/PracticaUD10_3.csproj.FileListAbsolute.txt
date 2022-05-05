@@ -1,0 +1,10 @@
+D:\Cosas de Clase\Repositorios\PracticaUD10\PracticaUD10_3\PracticaUD10_3\bin\Debug\PracticaUD10_3.exe.config
+D:\Cosas de Clase\Repositorios\PracticaUD10\PracticaUD10_3\PracticaUD10_3\bin\Debug\PracticaUD10_3.exe
+D:\Cosas de Clase\Repositorios\PracticaUD10\PracticaUD10_3\PracticaUD10_3\bin\Debug\PracticaUD10_3.pdb
+D:\Cosas de Clase\Repositorios\PracticaUD10\PracticaUD10_3\PracticaUD10_3\obj\Debug\PracticaUD10_3.csproj.AssemblyReference.cache
+D:\Cosas de Clase\Repositorios\PracticaUD10\PracticaUD10_3\PracticaUD10_3\obj\Debug\PracticaUD10_3.Form1.resources
+D:\Cosas de Clase\Repositorios\PracticaUD10\PracticaUD10_3\PracticaUD10_3\obj\Debug\PracticaUD10_3.Properties.Resources.resources
+D:\Cosas de Clase\Repositorios\PracticaUD10\PracticaUD10_3\PracticaUD10_3\obj\Debug\PracticaUD10_3.csproj.GenerateResource.cache
+D:\Cosas de Clase\Repositorios\PracticaUD10\PracticaUD10_3\PracticaUD10_3\obj\Debug\PracticaUD10_3.csproj.CoreCompileInputs.cache
+D:\Cosas de Clase\Repositorios\PracticaUD10\PracticaUD10_3\PracticaUD10_3\obj\Debug\PracticaUD10_3.exe
+D:\Cosas de Clase\Repositorios\PracticaUD10\PracticaUD10_3\PracticaUD10_3\obj\Debug\PracticaUD10_3.pdb
