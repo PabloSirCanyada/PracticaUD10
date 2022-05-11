@@ -29,108 +29,128 @@ namespace PracticaUD10_3
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.bGuardar = new System.Windows.Forms.Button();
+            this.tNombre = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tApellidos = new System.Windows.Forms.TextBox();
+            this.tMovil = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listSocios = new System.Windows.Forms.ListBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.lSocios = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // bGuardar
             // 
-            this.button1.Location = new System.Drawing.Point(1120, 174);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(151, 35);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Guardar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.bGuardar.Location = new System.Drawing.Point(560, 90);
+            this.bGuardar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bGuardar.Name = "bGuardar";
+            this.bGuardar.Size = new System.Drawing.Size(76, 29);
+            this.bGuardar.TabIndex = 0;
+            this.bGuardar.Text = "Guardar";
+            this.bGuardar.UseVisualStyleBackColor = true;
+            this.bGuardar.Click += new System.EventHandler(this.bGuardar_Click);
             // 
-            // textBox1
+            // tNombre
             // 
-            this.textBox1.Location = new System.Drawing.Point(155, 102);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(272, 31);
-            this.textBox1.TabIndex = 1;
+            this.tNombre.Location = new System.Drawing.Point(78, 53);
+            this.tNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tNombre.Name = "tNombre";
+            this.tNombre.Size = new System.Drawing.Size(138, 20);
+            this.tNombre.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(47, 108);
+            this.label1.Location = new System.Drawing.Point(24, 56);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 25);
+            this.label1.Size = new System.Drawing.Size(47, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Nombre:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(474, 108);
+            this.label2.Location = new System.Drawing.Point(237, 56);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(106, 25);
+            this.label2.Size = new System.Drawing.Size(52, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Apellidos:";
             // 
-            // textBox2
+            // tApellidos
             // 
-            this.textBox2.Location = new System.Drawing.Point(586, 105);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(272, 31);
-            this.textBox2.TabIndex = 4;
+            this.tApellidos.Location = new System.Drawing.Point(293, 55);
+            this.tApellidos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tApellidos.Name = "tApellidos";
+            this.tApellidos.Size = new System.Drawing.Size(138, 20);
+            this.tApellidos.TabIndex = 4;
             // 
-            // textBox3
+            // tMovil
             // 
-            this.textBox3.Location = new System.Drawing.Point(999, 105);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(272, 31);
-            this.textBox3.TabIndex = 5;
+            this.tMovil.Location = new System.Drawing.Point(500, 55);
+            this.tMovil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tMovil.Name = "tMovil";
+            this.tMovil.Size = new System.Drawing.Size(138, 20);
+            this.tMovil.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(924, 111);
+            this.label3.Location = new System.Drawing.Point(462, 58);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 25);
+            this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 6;
             this.label3.Text = "Móvil:";
             // 
-            // listBox1
+            // listSocios
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 25;
-            this.listBox1.Location = new System.Drawing.Point(52, 286);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(1219, 529);
-            this.listBox1.TabIndex = 7;
+            this.listSocios.FormattingEnabled = true;
+            this.listSocios.Location = new System.Drawing.Point(26, 149);
+            this.listSocios.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listSocios.Name = "listSocios";
+            this.listSocios.Size = new System.Drawing.Size(612, 277);
+            this.listSocios.TabIndex = 7;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(47, 236);
+            this.label4.Location = new System.Drawing.Point(24, 123);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(162, 25);
+            this.label4.Size = new System.Drawing.Size(80, 13);
             this.label4.TabIndex = 8;
             this.label4.Text = "Lista de socios:";
             // 
+            // lSocios
+            // 
+            this.lSocios.AutoSize = true;
+            this.lSocios.Location = new System.Drawing.Point(36, 161);
+            this.lSocios.Name = "lSocios";
+            this.lSocios.Size = new System.Drawing.Size(0, 13);
+            this.lSocios.TabIndex = 9;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1462, 878);
+            this.ClientSize = new System.Drawing.Size(689, 457);
+            this.Controls.Add(this.lSocios);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.listSocios);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tMovil);
+            this.Controls.Add(this.tApellidos);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.tNombre);
+            this.Controls.Add(this.bGuardar);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Grabar Socio";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,15 +158,16 @@ namespace PracticaUD10_3
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button bGuardar;
+        private System.Windows.Forms.TextBox tNombre;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tApellidos;
+        private System.Windows.Forms.TextBox tMovil;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox listSocios;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lSocios;
     }
 }
 
